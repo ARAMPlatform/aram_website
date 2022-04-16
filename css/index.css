@@ -1,0 +1,39 @@
+.navbar-custom {
+  background-color: black;
+}
+.navbar-custom .navbar-brand {
+  font-size: 1.2rem;
+  font-weight: 900;
+  letter-spacing: 0.12rem;
+}
+.navbar-custom .navbar-nav .nav-item .nav-link {
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: 0.07rem;
+}
+
+.bg-aram {
+  background-color: darkred;
+}
+
+header.banner {
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(4rem + 66px);
+  padding-bottom: 1rem;
+  /*background: linear-gradient(0deg, #45baa9 0%, #265a60 100%);*/
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+header.banner .banner-content {
+  z-index: 1;
+  position: relative;
+}
+header.banner .banner-content .banner-heading {
+  font-size: 4rem;
+}
+header.banner .banner-content .banner-subheading {
+  font-size: 2rem;
+}
