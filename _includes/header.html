@@ -1,9 +1,26 @@
-<header class="site-header" style="background-color:black;" role="banner">
-
-  <div class="wrapper">
+<header class="site-header bg-dark" role="banner">
+  <div class="">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <a class="site-title" style="color:white; font-size: 1.5rem;font-weight: 900;letter-spacing: 0.12rem;" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <!--<a class="site-title" style="color:white; font-size: 1.5rem;font-weight: 900;letter-spacing: 0.12rem;" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-custom fixed-top">
+      <div class="container ps-2 pe-3">
+        <img class="rounded-3 bg-light px-2 me-1" src="assets/aram-logo-30.png" alt="ARAM logo" />
+        <div class="px-2">
+        <a class="navbar-brand text-wrap" href="/">ARAM Platform</a>
+        <p class="text-white align-text-right h6" >Automated Risk Analysis and Managment</p>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ms-auto" style="align-items:end;">
+            <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="/blog">Blog</a></li>
+            <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
     {%- if page_paths -%}
       <!--<nav class="site-nav">-->
