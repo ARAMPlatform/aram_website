@@ -20,7 +20,7 @@ description: >- # this means to ignore newlines until "baseurl:"
    ARAM is an automated GRC management platform to help organizations in Saudi Arabia
    analyze and manage risk efficiently, and to comply with National Cybersecurity Authority standards.
 
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://aramplatform.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ARAM_Platform
 github_username:  aramplatform
