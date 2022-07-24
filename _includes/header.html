@@ -1,12 +1,12 @@
-<header class="site-header bg-dark" role="banner">
+<header class="site-header" role="banner">
   <div class="">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <!--<a class="site-title" style="color:white; font-size: 1.5rem;font-weight: 900;letter-spacing: 0.12rem;" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>-->
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-custom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
       <div class="container ps-2 pe-3">
-        <img class="rounded-3 bg-light px-2 me-1" src="assets/aram-logo-30.png" alt="ARAM logo" />
+        <img class="rounded-3 px-2 me-1" src="/assets/aram-logo-30.png" alt="ARAM logo" />
         <div class="px-2">
         <a class="navbar-brand text-wrap" href="/">ARAM Platform</a>
         <p class="text-white align-text-right h6" >Automated Risk Analysis and Managment</p>
